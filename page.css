@@ -1,0 +1,148 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html,body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,ul,ol,li,p,blockquote,pre,hr,figure,table,caption,th,td,form,fieldset,legend,input,button,textarea,menu{
+  margin:0;padding:0;
+}
+html,body,.fullpage{
+  width:100vw;
+  min-height:100vh;
+  overflow-x: hidden;
+  touch-action: pan-y;
+  -webkit-overflow-scrolling:touch;
+  background-color: #f5f4f9;
+}
+body,.mian,.title{
+  font-family: -apple-system,SF UI Display,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif;
+}
+a, body {
+  color: #3E3D3D;
+}
+a{
+ text-decoration: none;
+ cursor: pointer;
+}
+a:visited {
+  color: #969696;
+}
+.MTopS{
+  margin-top: 3vh;
+}
+.MTopM{
+  margin-top: 6vh;
+}
+.MTopL{
+  margin-top: 10vh;
+}
+.MLeftS{
+  margin-left: 2vw;
+}
+.MLeftM{
+  margin-left: 6vw;
+}
+.MLeftL{
+  margin-left: 10vw;
+}
+.MRightS{
+  margin-right: 2vw;
+}
+.MRightM{
+  margin-right: 6vw;
+}
+.MRightL{
+  margin-right: 10vw;
+}
+.PLeftS{
+  padding-left: 2vw;
+}
+.PLeftM{
+  padding-left: 6vw;
+}
+.PLeftL{
+  padding-left: 10vw;
+}
+.MBottomS{
+  margin-bottom: 3vh;
+}
+.MBottomM{
+  margin-bottom: 6vh;
+}
+.MBottomL{
+  margin-bottom: 10vh;
+}
+.flexCenter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flexRow{
+  flex-direction: row;
+}
+.flexCol{
+  flex-direction: column;
+}
+.flexStartCenter{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.flexCenterStart{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.flexStartStart{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.flexBetween{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bgMain{
+  background: url('../images/qqbg.png') #ff6758;
+  background-repeat: repeat-y;
+  background-size: 100% auto;
+}
+.mainBox{
+  background-color: #FFF;
+  border-radius: 8px;
+  width:90vw;
+  margin-left: auto;
+  margin-right: auto;
+  padding:3px;
+}
+.doc{
+  width:88vw;
+  height:auto;
+}
+.topline{
+font-size: 4vw;
+font-weight: 500;
+}
+.topline img{
+  width:4vw;
+  margin-right: 2vw;
+}
+.topTipBox{
+  background-color: #FF6856;
+  font-size: 4vw;
+  color:#FFF;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+.copyBtn{
+  background:linear-gradient(0deg,rgba(255,104,86,1),rgba(255,129,114,1));
+  width:50vw;
+  line-height: 12vw;
+  border-radius: 6vw;
+  margin-left: auto;
+  margin-right: auto;
+  color:#FFF;
+  font-size: 6vw;
+}
